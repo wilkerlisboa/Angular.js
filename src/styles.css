@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 35px;
+    background: red;
+}
+
+nav{
+    text-align: right;
+    width: 1034px;
+    height: 35px;
+    position: absolute;
+    margin: auto 0px 0px 120px;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0px 0px 10px;
+    color: white;
+}
